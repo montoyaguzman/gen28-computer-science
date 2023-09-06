@@ -21,7 +21,7 @@ buttonElement.addEventListener('click', function(e) {
 
 const getNumberById = (id) => {
     const element = document.querySelector(`#${id}`);
-    const number = parseFloat(element.value);
+    const number = element.value !== '' ? parseFloat(element.value) : undefined;
     return number;
 }
 
