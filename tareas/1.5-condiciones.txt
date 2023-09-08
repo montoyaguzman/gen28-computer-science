@@ -1,0 +1,7 @@
+A traves de un promp o formulario recibir 2 valores para calcular el resultado de elevar
+a la potencia del segundo el primero numero.
+
+Considere
+Validar el ingreso de datos
+Poner una regla que no permita mostrar un resultado de mas de 6 digitos
+Considerar los casos especiales de 0 a la n y n a la 0

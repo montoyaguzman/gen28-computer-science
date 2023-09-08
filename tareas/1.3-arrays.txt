@@ -1,0 +1,11 @@
+Se le dará una serie de números enteros. Su trabajo es recorrerlo
+y encontrar un índice N donde la suma de los números enteros a la izquierda
+de N es igual a la suma de los números enteros a la derecha de N. 
+Si no hay ningún índice que haga que esto suceda, regrese - 1.
+
+EJEMPLOS
+// [1,2,3,4,3,2,1]
+// [1,100,50,-51,1,1]
+// [20,10,30,10,10,15,35]
+
+Considere la excepcion de si le pasan un array que contenga strings

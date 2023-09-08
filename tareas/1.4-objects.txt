@@ -1,0 +1,6 @@
+Crear un objeto que tenga un atributo de cada tipo de dato.
+Recorrer sus props para mostrar un console.log() que diga algo como lo siguiente:
+const montoya = { name: 'jose', favoriteArtist: { name: 'Maria Becerra', do: ''música } };
+// Me llamo Jose Montoya y me gusta mucho la musica de Maria Becerra
+
+Consideraciones name y favoriteArtist debe tener las propiedades del ejemplo, pero el resto de keys debe ser como indica la linea 1

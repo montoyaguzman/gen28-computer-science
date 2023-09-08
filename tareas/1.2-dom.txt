@@ -1,0 +1,3 @@
+Crear un formulario para guardar el nombre y tipo categoria (usar un select) de un producto.
+Los datos deben mostrarse en una lista de elementos.
+Cada 2 elemementos debe el producto debe mostrarse color azul (iniciando en 1).

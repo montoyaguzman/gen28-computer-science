@@ -1,0 +1,6 @@
+Dado cualquiere texto:
+1. Contar el numero de vocales
+2. El numero de palabras que inician con mayuscula.
+
+Texto de ejemplo:
+"Bienvenido a la clase de bachata impartida en el Gran Salon"
