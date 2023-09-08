@@ -1,4 +1,4 @@
-A traves de un promp o formulario recibir 2 valores para calcular el resultado de elevar
+A traves de promp o de formso recibir 2 valores para calcular el resultado de elevar
 a la potencia del segundo el primero numero.
 
 Considere
