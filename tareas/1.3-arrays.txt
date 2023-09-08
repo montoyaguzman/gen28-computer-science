@@ -1,6 +1,5 @@
-Se le dará una serie de números enteros. Su trabajo es recorrerlo
-y encontrar un índice N donde la suma de los números enteros a la izquierda
-de N es igual a la suma de los números enteros a la derecha de N. 
+Se le dará una serie de números enteros. Su trabajo es recorrer esos numeros
+y encontrar un índice N donde la suma de n + (pos de n-1) sea igual a la suma de n + (pos de n+1). 
 Si no hay ningún índice que haga que esto suceda, regrese - 1.
 
 EJEMPLOS
