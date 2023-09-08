@@ -1,0 +1,8 @@
+Resolver mediante los 5 puntos vistos en clase el problema de la sucesion de fibonacci.
+El ejercicio debe tener:
+1. Analisis
+2. Lenguaje natural
+3. Diagrama de flujo
+4. Pseudocodigo
+5. Codigo
+6. Prueba de escritorio

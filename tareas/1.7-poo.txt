@@ -1,0 +1,2 @@
+1. Investigar que es un paradigma de programacion
+2. Investigar los beneficios de la POO y explicar al menos 1 en clase (con un ejemplo real).

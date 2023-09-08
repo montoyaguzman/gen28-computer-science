@@ -84,7 +84,7 @@ Forma gráfica de representar un algoritmo. Tambien es util para documentar proc
 * Conectores (circulos o líneas).
 * Flechas.
 
-![1685409514137](image/README/1685409514137.png)
+![1694131636119](image/README/1694131636119.png)
 
 Todos los diagramas de Ingeniería de software se basan en [UML](https://drive.google.com/file/d/0B_mAPkMcdtUsMHgtUWZJMWZvYms/view?resourcekey=0-ITkYE1KVVbh_tCutVSL_ew) (Unified Model Language).
 
@@ -120,39 +120,70 @@ Es una especificación (estándar) que la empresa del mismo nombre definió para
 Cabe destacar que las funcionalidades listadas a continuación fueron seleccionadas por el [autor](https://www.linkedin.com/in/jose-montoya-guzman-66aa32129/) de este readme.md y es una opinión de las features de las versiones de ecma que realmente se utilizan en la industria, con base en su propia experiencia y que pueden encontrar más en la [documentación oficial](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) de ecmascript.
 
 * Let y const.
-* Template literals (template strings).
-* Arrow functionts (short and long form).
+* Template literals / Template strings.
+* Arrow functions (short and long form).
 * For in y for of.
-* Map vs forEach.
-* Object entries, keys y values.
-* Destructuring.
-* Spread operator.
-* Rest operator.
+* Módulos.
 * Default parameters.
-* Métodos de arreglos (push, slice, splice, indexOf, includes, find, findIndex, map, filter, reduce, reverse, forEach).
-* Classes y constructor.
-* JS Modules.
-* Map y Set (Estructura de datos)
-* RegExp.
-* Promises.
-* Async / await.
-* Finally (Promises).
+* Spread operator
+* Rest operator.
+* Destructuring.
+* Map y Set.
+* Math
+* Numbers.
+* Class.
+* call, bind y apply.
+* RegExp
+* Promises
+* Async y await.
+* String
+  * charAt.
+  * concat.
+  * indexOf.
+  * replace y replaceAll.
+  * trim, substr y substring.
+  * includes, startsWith y endsWith.
+* Object
+  * create y assign.
+  * entries, keys y values.
+  * seal y frozen.
+* Array
+  * push, slice, splice.
+  * forEach y map.
+  * indexOf, includes, find, findIndex, filter, reduce, reverse.
+* Valor por defecto de una variable ||.
+* Encadenamiento opcional ?.
+* Nullish operator ??.
+* Delete, typeof e instanceof.
+* 
 
 #### Bonus JS
 
 Las siguientes son caracteristicas de cualquier lenguaje de programación y a continuación se explican como se usan en JS. No necesariamente son parte de ECMA pero si son conocimientos indispensables para un desarrollador, especialmente uno de JS.
 
+* Tipos de datos.
+* Operadores y tablas de verdad.
+* Sentencias condicionales.
+* Ciclos y concepto de iterador.
+* Objetos.
+* Arrays.
+* Funciones o métodos.
+* Uso correcto de var, let y const.
+* Destructuring.
+* Hoisting.
+* Localstorage.
+* WebApi (Eventos y el DOM).
+* Event Loop.
 * ¿Qué es el valor por defecto de una variable y cuáles son para cada tipo de dato?.
 * Diferencia entre paso por referencia y valor.
-* Validación de datos en JS
+* Validación de datos en JS.
 * Validación de datos con JS Moderno (Encadenamiento opcional (?) / Operador de cortocircuito).
 * Manejo de excepciones (Try, catch).
 * Tipos de funciones en JS.
 * Tipos de salida de una función (return y void/undefined).
 * Hoisting.
-* Operadores type of, instanceof y delete.
 * Tablas de verdad y tipos de operadores.
-* Longitud de tipos de datos.
+* Longitud que admite c/tipo de dato.
 * Tipos de datos especiales de js (null, undefined, infinity, NaN).
 
 Además de los temas visto y con el fin de leer algo más completo se sugiere revisar [eloquent JS](https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf).
@@ -195,6 +226,7 @@ objeto = objeto concreto = instancia = miembro = variable miembro = variable del
 
 **Objectos JS y JSON**
 
+```
 // objeto js => atributo y valor
 const person = {
     name: "jose m"
@@ -206,6 +238,7 @@ const person = {
         name: "jose m"
     }
 }
+```
 
 ### Prototype
 
@@ -342,10 +375,6 @@ pidgey.flight();
 ```
 
 **Nota:** Recuerde la exitencia de Object.create y { ...props } para generar nuevos objetos a partir de otros sin mantener la referencia.
-
-### Document Object Model DOM
-
-working...
 
 ### Presentaciones
 

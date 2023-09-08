@@ -1,0 +1,15 @@
+Dado un arreglo [2, 5, 7, 8, 15, 40, 60, 12, 10, 300, 12, 2, 19, 90, 1, 0, 150, 4]
+
+Recorrerlo e imprimir...
+    fizz cuando si el (n % 3) es igual a 0
+    buzz cuando si el (n % 3) y (n % 5) es igual a 0
+    fizzBuzz cuando si el (n % 2) es igual a 0
+    en cualquier otro caso el numero en dicha posicion
+
+El ejercicio debe tener:
+1. Analisis
+2. Lenguaje natural
+3. Diagrama de flujo
+4. Pseudocodigo
+5. Codigo
+6. Prueba de escritorio
