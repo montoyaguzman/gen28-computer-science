@@ -1,0 +1,6 @@
+Todo languajes (refactor)
+
+OOP Y prototype
+Videos Admin
+
+pokeapi (fetch)
