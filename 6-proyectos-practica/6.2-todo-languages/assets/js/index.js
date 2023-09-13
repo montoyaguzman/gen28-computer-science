@@ -2,6 +2,12 @@ const formElement = document.querySelector('#language-form');
 const ulElement = document.querySelector('#list-languages');
 let languagesArray = [];
 
+const STATUS_TYPES = {
+    completed: 'finished',
+    standBy: 'standBy',
+    start: 'start',
+};
+
 formElement.addEventListener('submit', function (event) {
     // 1. prevenir que se recargue la pagina al enviar el formulario
     event.preventDefault();
@@ -36,7 +42,7 @@ formElement.addEventListener('submit', function (event) {
 
 });
 
-function renderViewLanguages(arrLanguages) {
+const renderViewLanguages = (arrLanguages) => {
     
     arrLanguages.forEach((element, index) => {
 
@@ -55,11 +61,11 @@ function renderViewLanguages(arrLanguages) {
         // validar el status para saber que icono pintarle
         const currentStatus = element.status;
         
-        if (currentStatus === 'standBy') {
+        if (currentStatus === STATUS_TYPES.standBy) {
             iconElement.classList.add('bi', 'bi-pause-circle-fill', 'text-warning');
-        } else if (currentStatus === 'start') {
+        } else if (currentStatus === STATUS_TYPES.start) {
             iconElement.classList.add('bi', 'bi-check-circle-fill', 'text-primary');
-        } else if (currentStatus === 'finished') {
+        } else if (currentStatus === STATUS_TYPES.completed) {
             iconElement.classList.add('bi', 'bi-play-circle-fill', 'text-success');
         }
 
@@ -83,31 +89,31 @@ function renderViewLanguages(arrLanguages) {
     });
 };
 
-function cleanView() {
+const cleanView = () => {
     ulElement.innerHTML = '';
-}
+};
 
-function renderTotal(){
+const renderTotal = () => {
     const totalElement = document.querySelector('#language-all');
     const completeElement = document.querySelector('#language-complete');
     const pendingElement = document.querySelector('#language-pending');
     totalElement.innerHTML = languagesArray.length;
     completeElement.innerHTML = getCompleted(languagesArray);
     pendingElement.innerHTML =  getPendings(languagesArray);
-}
+};
 
-function getCompleted(arrLanguages) {
-    const completedList = arrLanguages.filter(element => element.status === 'finished');
+const getCompleted = (arrLanguages) => {
+    const completedList = arrLanguages.filter(element => element.status === STATUS_TYPES.finished);
     const countFinished = completedList.length;
     return countFinished;
-}
+};
 
-function getPendings(arrLanguages) {
+const getPendings = (arrLanguages) => {
     let countPendings = 0;
     arrLanguages.forEach(element => {
-        if (element.status === 'standBy' || element.status === 'start') {
+        if (element.status === STATUS_TYPES.standBy || element.status === STATUS_TYPES.start) {
             countPendings++;
         }
     });
     return countPendings;
-}
+};
