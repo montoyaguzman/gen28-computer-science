@@ -5,7 +5,7 @@ Crear una aplicación web con HTML, CSS y JS de las siguientes 3 opciones posibl
 3. Pokédex.
 
 Requerimientos CRUD
-1. Crear una pantalla de formulario de registro usando al menos un:
+1. Crear una pantalla de formulario de registro usando al menos un de cada uno de los siguientes elementos:
     input, select, textarea, checkbox, radiobutton
 2. Una pantalla de consulta de informacion.
 3. La posibilidad de borrar registros.
@@ -16,7 +16,7 @@ Requerimientos CITAS MEDICAS
     input, select, textarea, checkbox, radiobutton
 2. Poder consultar todas las citas.
 3. Poder consultar las citas agendadas del dia
-4. Consumir un API para mostrar el clima.
+4. Editar registros ó consumir un API para mostrar el clima.
 
 Requerimientos POKE_API
 1. Crear un catalogo de pokemon que se obtengan desde un API.
@@ -30,7 +30,7 @@ Cualquier proyecto debe cuidar un diseño atractivo:
 * Desplegar a githubpages.
 
 Formato de la presentacion
-* Tiempo de 5min. (3min. para explicar su proyecto y 2min. para la parte tecnica).
+* Tiempo de 10min. (5min. para explicar su proyecto visualmente y 5min. para la parte tecnica).
 * Compartir el repo de codigo antes de la clase (se les compartira un un hilo antes de iniciar la clase).
 * Las preguntas y retro de los senseis son con base en su experiencia y con el objetivo de ayudarlos.
-* Limite de la retro 3min. por sensei.
+* Limite de la retro 5min. por sensei.
