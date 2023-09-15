@@ -14,4 +14,12 @@ POO
 REACT => Componentes (funciones / POO)
 
 
+Tipo de dato array []
+Prototype (Object) => Prototype (Array) => const numeros = [1, 2, 3]
+
+Tipo de dato objeto {}
+Prototype (Object) => student = { name: 'name' };
+
+Tipo de dato new String
+Prototype (Object) => Prototype (String) => const movie = ''
 
