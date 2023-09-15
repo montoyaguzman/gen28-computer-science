@@ -1,0 +1,1 @@
+Realizar un modelo de POO, crear 2 objetos, hacer la clase en diagrama UML.
