@@ -18,13 +18,11 @@ Este documento es una **sintesis de la kata** (clases, campus, tareas y proyecto
 1. [Intro a la logica de programacion](#intro-a-lenguajes-de-programacion)
 2. [EcmaScript](#ecmascript)
 3. [Prototype y POO](#prototype-y-poo)
-4. [Document Object Model DOM](#document-object-model-dom)
-5. [Frameworks CSS](#frameworks-css)
-6. [Formularios](#formularios)
-7. [Consumo de apis](#consumo-de-apis)
-8. [Presentaciones](#presentaciones)
-9. [Informacion y recursos extra](#informacion-y-recursos-extra)
-10. [Glosario](#glosario)
+4. [Proyecto del módulo](#proyecto-del-módulo)
+5. [Presentaciones](#presentaciones)
+6. [Glosario](#glosario)
+7. [Informacion y recursos extra](#informacion-y-recursos-extra)
+
 
 ## Introducción a la logica de programacion
 
@@ -47,25 +45,22 @@ Un requerimiento es la funcionalidad que necesita tener un proyecto, existen de 
 * **Requerimientos funcionales:** Son aquellos requerimientos que tienen que ver con la solucion del usuario. Aportan valor funcional al usuario.
 * **Requerimientos no funcionales:** Son caracteristicas que un sistema necesita para funcionar adecuadamente pero que no aportan valor operativo al usuario.
 
-### Algoritmo
+#### Algoritmos
 
-Secuencia de instruccions o pasos que van en ordener para resolver un problema.
+Un algoritmo es un conjunto de acciones que especifican la secuencia de operaciones realizadas, en orden, para resolver un problema.
 
-#### Partes de un algoritmo
+**Partes de un algoritmo**
 
-* Entrada.
-* Proceso.
-* Salida.
+* **Entrada:** Se trata del conjunto de datos que el algoritmo necesita como insumo para procesar.
+* **Proceso:** Son los pasos necesarios aplicados por el algoritmo a la entrada recibida para poder llegar a una salida o resolución del problema.
+* **Salida:** Es el resultado producido por el algoritmo a partir del procesamiento de la entrada una vez terminada la ejecución del proceso.
 
-### Representaciones de un algoritmo
+**Representaciones de un algoritmo**
 
-* Lenguaje natural.
-* Diagrama de flujo.
-* Pseudocódigo.
-* Código.
-* Pruebas de escritorio.
-
-#### Lenguaje del natural
+* **Lenguaje natural:** Es la forma tradicional de comunicación utilizada por los seres humanos.
+* **Diagrama de flujo:** Es una representacion gráfica del algoritmo de un problema.
+* **Pseudocodigo:** Es una forma de expresar los distintos pasos que va a realizar un programa de la forma más parecida a un lenguaje de programación (utlizando palabras clave). El pseudocodigo no puede ejecutarse directamente un ordenador ya que solo es una representacion para facilitar la solucion.
+* **Código:** Es la solución de un problema en algun lenguaje de programación.
 
 Expresar un problema con nuestras propias palabras y sin usar tecnicismos de desarrollo. Es el lenguaje con el que nos expresamos comúnmente.
 
@@ -136,6 +131,7 @@ Cabe destacar que las funcionalidades listadas a continuación fueron selecciona
 * RegExp
 * Promises
 * Async y await.
+* Symbol.
 * String
   * charAt.
   * concat.
@@ -145,17 +141,17 @@ Cabe destacar que las funcionalidades listadas a continuación fueron selecciona
   * includes, startsWith y endsWith.
 * Object
   * create y assign.
-  * entries, keys y values.
-  * seal y frozen.
+  * keys, values y entries.
+  * seal y freeze.
 * Array
-  * push, slice, splice.
   * forEach y map.
+  * push, pop, splice y slice.
   * indexOf, includes, find, findIndex, filter, reduce, reverse.
 * Valor por defecto de una variable ||.
 * Encadenamiento opcional ?.
 * Nullish operator ??.
 * Delete, typeof e instanceof.
-* 
+* Destructuring.
 
 #### Bonus JS
 
@@ -170,21 +166,16 @@ Las siguientes son caracteristicas de cualquier lenguaje de programación y a co
 * Funciones o métodos.
 * Uso correcto de var, let y const.
 * Destructuring.
+* Tipos de datos especiales de js (null, undefined, infinity, NaN).
+* ¿Qué es el valor por defecto de una variable y cuáles son para cada tipo de dato?.
+* Tipos de funciones en JS.
+* Diferencia entre paso por referencia y valor.
+* Manejo de excepciones (Try, catch).
+* Tipos de salida de una función (return y void/undefined).
 * Hoisting.
 * Localstorage.
 * WebApi (Eventos y el DOM).
 * Event Loop.
-* ¿Qué es el valor por defecto de una variable y cuáles son para cada tipo de dato?.
-* Diferencia entre paso por referencia y valor.
-* Validación de datos en JS.
-* Validación de datos con JS Moderno (Encadenamiento opcional (?) / Operador de cortocircuito).
-* Manejo de excepciones (Try, catch).
-* Tipos de funciones en JS.
-* Tipos de salida de una función (return y void/undefined).
-* Hoisting.
-* Tablas de verdad y tipos de operadores.
-* Longitud que admite c/tipo de dato.
-* Tipos de datos especiales de js (null, undefined, infinity, NaN).
 
 Además de los temas visto y con el fin de leer algo más completo se sugiere revisar [eloquent JS](https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf).
 
@@ -273,7 +264,7 @@ const pikachu = {
 }
 ```
 
-##### Funcion constructora
+##### Funcion factory
 
 ```
 function createPokemon(name, height) {  
@@ -286,7 +277,7 @@ function createPokemon(name, height) {
 const pikachu = createPokemon('pikachu', 90);
 ```
 
-##### Prototype (herencia).
+##### Prototype.
 
 ```
 function Pokemon(name, height) {
@@ -376,6 +367,10 @@ pidgey.flight();
 
 **Nota:** Recuerde la exitencia de Object.create y { ...props } para generar nuevos objetos a partir de otros sin mantener la referencia.
 
+### Proyecto del módulo
+
+Ir a la carpeta [7-proyecto](./7-proyecto/instrucciones.md)
+
 ### Presentaciones
 
 Se encuentran en la  [carpeta assets](./assets/) de este mismo repo.
@@ -383,3 +378,14 @@ Se encuentran en la  [carpeta assets](./assets/) de este mismo repo.
 ### Glosario
 
 El glosario se encuentra ubicado en el siguiente [repo](https://github.com/montoyaguzman/gloasario-techie)
+
+### Informacion y recursos extra
+
+1. [¿Qué es la programación orientada a objetos?](https://www.youtube.com/watch?v=DlphYPc_HKk)
+2. [Object-oriented Programming in JavaScript: Made Super Simple](https://www.youtube.com/watch?v=PFmuCDHHpwk&t=3305s).
+3. [OOP in JS (De prototypes a clases)](https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/).
+4. [Creación de Objetos JavaScript](https://developer.mozilla.org/es/docs/conflicting/Learn/JavaScript/Objects/Classes_in_JavaScript).
+5. [Classes](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes).
+6. [Herencia y cadena de prototypos](https://developer.mozilla.org/es/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).
+7. [Curso de ES6](https://www.udemy.com/course/ecmascript-6-es2015/)
+8. [ES6 en 1 hora](https://www.youtube.com/watch?v=NCwa_xi0Uuc).
