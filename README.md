@@ -15,7 +15,7 @@ Este documento es una **sintesis de la kata** (clases, campus, tareas y proyecto
 
 ## Temario
 
-1. [Intro a la logica de programacion](#intro-a-lenguajes-de-programacion)
+1. [Introducción a la logica de programación](#introducción-a-la-logica-de-programación)
 2. [EcmaScript](#ecmascript)
 3. [Prototype y POO](#prototype-y-poo)
 4. [Proyecto del módulo](#proyecto-del-módulo)
@@ -24,7 +24,7 @@ Este documento es una **sintesis de la kata** (clases, campus, tareas y proyecto
 7. [Informacion y recursos extra](#informacion-y-recursos-extra)
 
 
-## Introducción a la logica de programacion
+## Introducción a la logica de programación
 
 ### Lógica
 
@@ -179,7 +179,7 @@ Las siguientes son caracteristicas de cualquier lenguaje de programación y a co
 
 Además de los temas visto y con el fin de leer algo más completo se sugiere revisar [eloquent JS](https://eloquentjavascript.net/Eloquent_JavaScript_small.pdf).
 
-## Protototipos y POO
+## Prototype y POO
 
 ### Intro
 
