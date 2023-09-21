@@ -23,7 +23,6 @@ Este documento es una **sintesis de la kata** (clases, campus, tareas y proyecto
 6. [Glosario](#glosario)
 7. [Informacion y recursos extra](#informacion-y-recursos-extra)
 
-
 ## Introducción a la logica de programación
 
 ### Lógica
@@ -150,6 +149,7 @@ Cabe destacar que las funcionalidades listadas a continuación fueron selecciona
 * Valor por defecto de una variable ||.
 * Encadenamiento opcional ?.
 * Nullish operator ??.
+* Guard operator &&.
 * Delete, typeof e instanceof.
 * Destructuring.
 
